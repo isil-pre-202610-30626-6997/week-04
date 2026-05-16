@@ -40,4 +40,20 @@ public class Calculator {
         }
     }
 
+    public static void calculateMultiplesOfSix(int min, int max) {
+
+        int count = 0;
+        int sum = 0;
+        for (int i = min; i <= max; i++) {
+            if (i % 6 == 0) {
+                count++;
+                sum += i;
+            }
+        }
+
+        System.out.println("There are " + count + " multiples of six." );
+        System.out.println("Total: " + sum);
+
+    }
+
 }

@@ -13,5 +13,7 @@ public class App {
         System.err.println(Calculator.excuteOperation(8, 6, '/'));
 
         Calculator.displayEvenNumber(1, 15);
+
+        Calculator.calculateMultiplesOfSix(15, 18);
     }
 }
