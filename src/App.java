@@ -11,5 +11,7 @@ public class App {
         Calculator.getMax(20, 20);
 
         System.err.println(Calculator.excuteOperation(8, 6, '/'));
+
+        Calculator.displayEvenNumber(1, 15);
     }
 }
